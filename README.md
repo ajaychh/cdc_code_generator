@@ -26,9 +26,12 @@ Supports schema evolution on adding new columns.
 Does not support changes to data type
 
 ## Requirements
-pysqlake - (Reads Upsolver CLI)
+#pysqlake - (Reads Upsolver CLI)
+upsolver-cli - (interacts with cli to execute SQL cmds)
 snowflake-connector-python - (Optional to replicate to SnowFlake)
 python-dotenv - for passport hiding support
+.env file - UPSOLVER_TOKEN
+
 
 ## Running as Job / on Push
 Includes Github action to show how script can be scheduled or triggered on action
